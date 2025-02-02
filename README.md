@@ -3,7 +3,7 @@ I'm documenting everything I do to make my very own Kubernetes homelab.
 
 ## Services
 - Wireguard
-- pfSense
+- OPNsense
 - Llama w/ DeepSeek model
 - piHole
 - tbd...
