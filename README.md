@@ -6,7 +6,9 @@ I'm documenting everything I do to make my very own Kubernetes homelab.
 - OPNsense
 - Llama w/ DeepSeek model
 - piHole
-- tbd...
+- Splunk + ELK Stack
+- Self-hosted cloud storage
+- Obsidian vault sync to glacier, creating a hybrid approach
 
 ## Infrastructure
 - Dell Optiplex Mini Tower (16GB RAM, i5 6th gen + however many spare SSDs I have laying around)
