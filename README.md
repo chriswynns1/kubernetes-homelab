@@ -2,22 +2,22 @@
 I'm documenting everything I do to make my very own Kubernetes homelab.
 
 ## Services
-- Wireguard
-- OPNsense
+- ~~Wireguard~~ Tailscale ✅
+- OPNsense ✅
+- k3s
 - Llama w/ DeepSeek model
-- piHole
+- piHole 
 - Splunk + ELK Stack
 - Self-hosted cloud storage
-- Obsidian vault sync to glacier, creating a hybrid approach
+- Glacier backups?
 
 ## Infrastructure
-- Dell Optiplex Mini Tower (16GB RAM, i5 6th gen + however many spare SSDs I have laying around)
-- Rooted Crhomebook
+- Dell Optiplex Mini Tower (16GB RAM, i5 6th gen + 256GB SSD)
+- HP EliteDesk 800 G3 (8GB RAM, i5 6th gen, HDD pending)
 - 5 port TP-Link Gigabit Switch
-- Pis, SBCs, Thin Clients, and any low-power nodes I can get my hands on
 
 # TODO:
-- root chromebook to install linux on it
-- install 2nd network card in main server
-- configure k3s on main server + node
-- router on main server?
+- NAS
+- Backups
+- Ansible
+- GitActions?
