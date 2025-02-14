@@ -30,5 +30,16 @@ Tailscale is one of the easiest ways to access your homelab away from home. It r
 5. Access it through VPN > Tailscale
 6. Generate an auth key for your router
 7. Paste it into the auth key field
-8. "Advertise Exit Node" will route external traffic through the router
-9. "Accept Subnet Routes" lets you access your LAN
+- "Advertise Exit Node" will route external traffic through the router
+- "Accept Subnet Routes" lets you access your LAN
+8. Enable Tailscale and "Accept Subnet Routes"
+
+Now, we need to add an interface for Tailscale in OPNsense.
+1. Interfaces > Assignments > Assign the new Tailscale interface, name it whatever you want
+2. Interfaces > Tailscale Interface > Enable
+3. Firewall > Rules > Tailscale Interface > New rule
+4. Change IPV4 -> IPV4 + 6
+5. Save
+
+Add a subnet route you'd like to advertise to other Tailscale clients. 
+In my case, this is ```10.0.0.0/24```
