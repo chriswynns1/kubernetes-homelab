@@ -20,3 +20,15 @@ Now, we can configure OPNsense using the web gui:
 1. Visit ```https://10.0.0.1``` or whatever you set your LAN IP to
 2. Follow the wizard 🧙‍♂️
 
+## Tailscale
+Tailscale is one of the easiest ways to access your homelab away from home. It requires no port-forwarding. OPNsense officially supports a Tailscale plugin as of 25.1.1.
+
+1. System > Firmware > Status > Check for updates
+2. Scroll to the bottom and click "Update"
+3. After reboot, navigate to Plugins (under Firmware)
+4. Search for Tailscale and install it
+5. Access it through VPN > Tailscale
+6. Generate an auth key for your router
+7. Paste it into the auth key field
+8. "Advertise Exit Node" will route external traffic through the router
+9. "Accept Subnet Routes" lets you access your LAN
