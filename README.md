@@ -1,10 +1,10 @@
-# K3S-homelab
+# ~~K3S-homelab~~ microk8s homelab
 I'm documenting everything I do to make my very own Kubernetes homelab.
 
 ## Services
 - ~~Wireguard~~ Tailscale ✅
 - OPNsense ✅
-- k3s
+- ~~k3s~~ microk8s ✅
 - Llama w/ DeepSeek model
 - piHole 
 - Splunk + ELK Stack
