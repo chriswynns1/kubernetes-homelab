@@ -5,6 +5,8 @@ I'm documenting everything I do to make my very own Kubernetes homelab.
 - Tailscale ✅
 - OPNsense ✅
 - microk8s ✅
+- Gitea
+- Flux
 - Llama w/ DeepSeek model
 - piHole 
 - Splunk + ELK Stack
