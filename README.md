@@ -1,15 +1,16 @@
-# ~~K3S-homelab~~ microk8s homelab
+# microk8s homelab
 I'm documenting everything I do to make my very own Kubernetes homelab.
 
 ## Services
-- ~~Wireguard~~ Tailscale ✅
+- Tailscale ✅
 - OPNsense ✅
-- ~~k3s~~ microk8s ✅
+- microk8s ✅
 - Llama w/ DeepSeek model
 - piHole 
 - Splunk + ELK Stack
 - Self-hosted cloud storage
 - Glacier backups?
+- Prometheus + Grafana
 
 ## Infrastructure
 - Dell Optiplex Mini Tower (16GB RAM, i5 6th gen + 256GB SSD)
