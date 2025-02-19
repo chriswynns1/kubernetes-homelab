@@ -6,7 +6,7 @@ I'm documenting everything I do to make my very own Kubernetes homelab.
 - OPNsense ✅
 - k3s ✅
 - Longhorn ✅
-- Gitea
+- Cert Manager ✅
 - Flux
 - Llama w/ DeepSeek model
 - piHole 
